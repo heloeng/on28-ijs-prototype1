@@ -1,3 +1,5 @@
+//função construtora
+//cria um objeto com base no modelo
 function animal(type, name, age) {
   let animal = {}
 
@@ -21,3 +23,5 @@ animal1.eat()
 const animal2 = animal('gato', 'Pipoca', 2);
 console.log(animal2)
 animal2.eat()
+
+

@@ -20,3 +20,4 @@ employee2.raiseSalary = raiseSalary
 employee1.raiseSalary(0.1)
 employee2.raiseSalary(0.1)
 
+module.exports = { employee1, employee2 };

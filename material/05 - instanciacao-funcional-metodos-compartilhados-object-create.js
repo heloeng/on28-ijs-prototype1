@@ -9,6 +9,9 @@ const animalMethods = {
 }
 
 function Animal(type, name, age) {
+  //antes era assim chamava cada método: let animal = {};
+  //agora com objec create  tem todos os métodos do  "animalMethods"
+  //então não precisa reescrever esses métodos: animal.eat = animalMethods.eat; // animal.sleep = animalMethods.sleep;
   let animal = Object.create(animalMethods);
 
   animal.type = type;

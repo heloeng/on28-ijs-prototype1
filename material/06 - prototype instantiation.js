@@ -19,3 +19,7 @@ Animal.prototype.sleep = function sleep() {
 const animal1 = Animal('cachorro', 'Aslam', 5);
 console.log(animal1);
 animal1.eat();
+
+
+function qualquerFuncao() {}
+console.log(qualquerFuncao.prototype); //{}
